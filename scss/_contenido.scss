@@ -1,0 +1,72 @@
+body{
+    background-color: beige;
+}
+h2{
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    color: blanchedalmond;
+}
+.container-fluid{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+
+.description1{
+.izquierda1{
+    background-color: rgb(202, 158, 165);
+    padding: 1.2rem;
+}
+img{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.1, 1.1);
+    }
+}
+}
+
+.centro2{
+    @include background;
+    margin: 50px;
+    width: 95%;
+    color: white;
+}
+.izquierda2{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248); 
+}
+.derecha1{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    
+}
+.izquierda3{
+    background-color: rgba(46, 46, 46, 0.747);
+    color: rgb(226, 248, 248);
+    margin: 50px;
+    width: 90%;
+}
+.izquierda4{
+    @include background;
+    color: rgb(226, 248, 248);
+    height: 750px;
+    overflow: auto;
+}
+.imagenIngredientes{
+    transition: all 2s ease;
+    &:hover{
+        transform: scale(1.2, 1.2);
+
+    }
+}
+.card-body{
+    @include background;
+    
+}
+.centro4{
+    @include background; 
+    color: rgb(226, 248, 248);
+    height: 300px;
+    overflow: auto;  
+}
